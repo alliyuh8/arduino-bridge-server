@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.22",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "serialport": "^13.0.0"
+  },
+  "name": "reflective-resistance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arduino-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alliyuh8/reflective-resistance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alliyuh8/reflective-resistance/issues"
+  },
+  "homepage": "https://github.com/alliyuh8/reflective-resistance#readme"
+}
