@@ -21,7 +21,8 @@ let isConnected = false;
 // Windows: COM3, COM4, COM5, etc.
 // Mac: /dev/cu.usbmodem14201 or /dev/cu.usbserial-XXXX
 // Linux: /dev/ttyUSB0 or /dev/ttyACM0
-const ARDUINO_PORT = '/dev/cu.usbmodem2101'; // <--- CHANGE THIS TO YOUR PORT!
+//const ARDUINO_PORT = '/dev/cu.usbmodem2101'; // mac!
+const ARDUINO_PORT = 'COM3'; // windows!
 const BAUD_RATE = 115200;
 
 // Connect to Arduino
